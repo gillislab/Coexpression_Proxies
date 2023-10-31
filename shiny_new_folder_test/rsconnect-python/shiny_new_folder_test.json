@@ -1,0 +1,11 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "/data/passala/git/Coexpressalog_Method_Development/shiny_new_folder_test",
+        "app_url": "https://mikepassal.shinyapps.io/epiphite_test/",
+        "app_id": 8834264,
+        "app_guid": null,
+        "title": "EPIPHITE_Test",
+        "app_mode": "python-shiny"
+    }
+}
