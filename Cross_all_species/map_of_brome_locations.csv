@@ -1,0 +1,13 @@
+,brome
+apple,/data/suresh/spetree/scoresNM/brome_apple_roc_scores_LCA.csv
+rice,/data/suresh/spetree/scoresNM/rice_brome_roc_scores_LCA.csv
+sorghum,/data/suresh/spetree/scoresNM/brome_sorghum_roc_scores_LCA.csv
+maize,/data/suresh/spetree/scoresNM/maize_brome_roc_scores_LCA.csv
+grape,/data/suresh/spetree/scoresNM/brome_grape_roc_scores_LCA.csv
+mustard,/data/suresh/spetree/scoresNM/brome_mustard_roc_scores_LCA.csv
+soybean,/data/suresh/spetree/scoresNM/soybean_brome_roc_scores_LCA.csv
+medicago,/data/suresh/spetree/scoresNM/brome_medicago_roc_scores_LCA.csv
+tobacco,/data/suresh/spetree/scoresNM/brome_tobacco_roc_scores_LCA.csv
+potato,/data/suresh/spetree/scoresNM/brome_potato_roc_scores_LCA.csv
+arabidopsis,/data/suresh/spetree/scoresNM/arabidopsis_brome_roc_scores_LCA.csv
+tomato,/data/suresh/spetree/scoresNM/brome_tomato_roc_scores_LCA.csv
