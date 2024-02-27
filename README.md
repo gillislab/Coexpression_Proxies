@@ -114,34 +114,11 @@ The best part about EPIPHITES is how easy it is to drop into your existing workf
 This will explain how to get started if you are interested in integrating high dimensional data between two of the following species: Zea mays, Oryza sativa, Arabidopsis thaliana, Malus domestica, Sorghum bicolor, Vitis vinifera, Brassica rapa, Glycine max, Medicago truncatula, Nicotiana tabacum, Solanum tuberosum, Brachypodium distachyon, Solanum lycopersicum. The coexpression proxies from these species are identified by comparing coexpression networks generated from thousands of bulk samples. If instead, you'd like to generate new coexpression proxies between two different species, pop on down to the section below. 
 
 
-Using coexpression proxies between species for which we have precalculated them is very easy! First, pop over to our Shiny webpage,  [right over here!](https://gillislab.shinyapps.io/epiphites_v11/) From here, you're going to pick the two species you need to integrate between, and what stringency threshold you'd like the coexpression proxies at. What is the stringency threshold? Its basically how similar we require the genes coexpression profile to be in order to call them as coexpression proxies, as well as how much better of a match the genes need to be than any other potential match. The stringent threshold requires the tightest match, and the lenient threshold requires a much lower match. After downloading your list of genes, its easy to drop it into your integration workflow. Just replace the gene names in one species based on the downloaded file, and move non-paired genes to the .raw part of the file (or equivalent if not using SCANPY). 
-
+Using coexpression proxies between species for which we have precalculated them is very easy! First, pop over to our Shiny webpage,  [right over here!](https://gillislab.shinyapps.io/epiphites_v11/) From here, you're going to pick the two species you need to integrate between, and what stringency threshold you'd like the coexpression proxies at. What is the stringency threshold? Its basically how similar we require the genes coexpression profile to be in order to call them as coexpression proxies, as well as how much better of a match the genes need to be than any other potential match. The stringent threshold requires the tightest match, and the lenient threshold requires a much lower match. After downloading your list of genes, its easy to drop it into your integration workflow. First, you'll want to make a copy of the original data, and also move a version of the data to .raw (or to a backup assay if using Seurat). Next, you replace the gene names in one species with the matched gene from the other species based on the downloaded file, and then drop the non-matched genes from each dataset. Next, you'll do any preprocessing required for your chosen integration (for example, concatanating the files and setting a batch variable) and then run your chosen integration technique. Following integration, we recommend [Metaneighbor](https://github.com/gillislab/MetaNeighbor) for evaluating your integration quality! Please don't rely only on a 2 dimensional projection (eg. UMAP/TSNE) to evaluate integration. 
 
 ### Generating Coexpression Proxies For New Species
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+If you are integrating with a species for which we don't have precalculated data, you can pop over to [this Python notebook](https://github.com/gillislab/Coexpression_Proxies/blob/main/Coexpression_network_template.ipynb) in order to be walked through the steps. To briefly describe the workflow, we first generate a coexpression network by finely clustering the single cell data, partitioning cells into groups of ~10 highly similar cells. Then, using each of these groups as a sample, we generate a coexpression network. In comparisions to bulk data, we find that coexpression networks generated this way are of very good quality, even when generated from only root tissue. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
