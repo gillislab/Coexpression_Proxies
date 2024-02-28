@@ -144,7 +144,7 @@ Michael Passalacqua- [@nomadicscience](https://twitter.com/NomadicScience) - pas
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-This project is only possible because of my very supportive lab and collaborators. The Jackson and Lippman Lab at CSHL, the Birnbaum Lab at NYU, and my fantastic mentors Hamsini, Maggie, and Jessie
+This project is only possible because of my very supportive lab and collaborators. The Jackson and Lippman Lab at CSHL, the Birnbaum Lab at NYU, and my fantastic mentors Hamsini, Maggie, and Jesse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
