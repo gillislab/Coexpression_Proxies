@@ -135,6 +135,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Michael Passalacqua- [@nomadicscience](https://twitter.com/NomadicScience) - passala@cshl.edu
+
+<br />
+<br />
 Jesse Gillis- [Faculty Page](https://thedonnellycentre.utoronto.ca/faculty/jesse-gillis) - jesse.gillis@utoronto.ca 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
