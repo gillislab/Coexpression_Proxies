@@ -84,9 +84,9 @@
 Welcome to EPIPHITES! This project was inspired by a late night trying to help our tireless collaborators. After many months of attempting to get integration of Arabidopsis and Maize data working, we realized that the tiny number of 1-1 genes was majorly impacting integration. To deal with this, we use conservation of coexpression to identify highly similar gene pairs across species, and add them to the 1-1 gene space. Why does this improve integration?
 
 Here's why:
-* All gene expression is highly correlated - gene expression does not look like 20k independent values
-* This correlated expression underlies all single cell analysis - correlated expression enables the clustering that facilliates single cell
-* The one to one genes are not perfect matches either, as they've evovled between species and taken on new functions
+1) All gene expression is highly correlated - gene expression does not look like 20k independent values
+2) This correlated expression underlies all single cell analysis - correlated expression enables the clustering that facilliates single cell
+3) Coexpression captures both function and regulation, finding good matches for genes across species. Additionally, the one to one genes are not perfect matches either, as they've evovled between species and taken on new functions. This gives flexibility to allow mismatches in both the true 1-1 genes and our coexpression proxies
   <br />
   <br />
     
