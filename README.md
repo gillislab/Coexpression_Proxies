@@ -145,7 +145,7 @@ Jesse Gillis- [Faculty Page](https://thedonnellycentre.utoronto.ca/faculty/jesse
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-This project is only possible because of my very supportive lab and collaborators. The Jackson and Lippman Lab at CSHL, the Birnbaum Lab at NYU, and my fantastic mentors Hamsini, Maggie, and Jesse
+This project is only possible because of my very supportive lab and collaborators. The Jackson and Lippman Lab at CSHL, the Birnbaum Lab at NYU, and my fantastic mentors and inspirations Hamsini, and Maggie.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
